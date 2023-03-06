@@ -33,7 +33,6 @@ function onImageElementClick(e) {
     return;
   }
   const source = e.target.dataset.source;
-  console.log(onImageElementClick);
   modalWindow(source);
 }
 
